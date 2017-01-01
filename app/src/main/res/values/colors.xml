@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#377EB4</color>
+    <color name="colorPrimaryDark">#0277bd</color>
+    <color name="colorAccent">#F44336</color>
+    <color name="colorLightPrimary">#C5CAE9</color>
+
+    <color name="btnPressedColor">#039be5</color>
+    <color name="btnDeflautColor">#03a9f4</color>
+
+    <color name="textPrimaryColor">#212121</color>
+    <color name="textSecondaryColor">#757575</color>
+    <color name="dividerColor">#BDBDBD</color>
+
+    <!--standardColor-->
+    <color name="standardWhite">#ffffff</color>
+    <color name="standardBlack">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

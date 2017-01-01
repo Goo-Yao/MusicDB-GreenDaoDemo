@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_login_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="#80ffffff"
+        app:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp">
+
+            <MaterialEditText
+                android:id="@+id/et_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入账号"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textSize="@dimen/margin_xl"
+                app:floatingLabel="true" />
+
+            <MaterialEditText
+                android:id="@+id/et_psw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_account"
+                android:layout_marginTop="10dp"
+                android:hint="请输入密码"
+                android:paddingLeft="10dp"
+                android:password="true"
+                android:singleLine="true"
+                android:textSize="@dimen/margin_xl"
+                app:floatingLabel="true" />
+
+            <Button
+                android:id="@+id/btn_login_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@id/et_psw"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_selector"
+                android:text="登录"
+                android:textColor="@color/standardWhite"
+                android:textSize="@dimen/margin_xl" />
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@id/btn_login_confirm"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_selector"
+                android:text="注册"
+                android:textColor="@color/standardWhite"
+                android:textSize="@dimen/margin_xl" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
